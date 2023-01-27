@@ -11,3 +11,11 @@ let result = arr.reduce((acc, value) => {
 }, 0);
 
 console.log(result);
+
+//usin filter method
+let ar = [3, 4, 15, 19, 18, 9, 6];
+let filterResult = ar.filter((item) => {
+    return item % 3 == 0;
+});
+
+console.log(filterResult);
