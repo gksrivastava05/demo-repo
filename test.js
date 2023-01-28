@@ -18,12 +18,14 @@ let filterResult = ar.filter((item) => {
     return item % 3 == 0;
 });
 
-console.log(filterResult);
+// console.log(filterResult);
 
 //reduce()
 let result_reduce = ar.reduce((acc, value) => {
-        acc = acc + value;
-        return acc;
+    acc = acc + value;
+    return acc;
 }, 0);
 
-console.log(result_reduce);
+// console.log(result_reduce);
+
+//
